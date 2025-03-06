@@ -8,8 +8,12 @@ namespace Prueba_constructores
 {
     internal class Program
     {
+        // en esta practica estabamos viendo la diferencia entre usar constructores parametrizados y no usarlos
+        // en la cual decimos que nos ahorramos lineas de codigo y tambien obligamos a que sean rellenados los campos
+        // para poder usar la clase
         static void Main(string[] args)
         {
+            
             Persona persona = new Persona();
             persona.nombre = "Franklyn";
             persona.edad = 16;
